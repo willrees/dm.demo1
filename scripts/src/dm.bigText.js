@@ -1,5 +1,3 @@
-/// <reference path="../../../dm.core/typescript.definitions/dm.core.d.ts""/>
-
 (function($) {
 	dm.globalComponentFactory("bigText", function($) {
 		//component definition.
@@ -19,5 +17,5 @@
 		return bigText;
 		
 		
-	}, {fontSize: '20px'}, $);
+	}, {fontSize: '20px'}, [$]);
 })(jQuery);
